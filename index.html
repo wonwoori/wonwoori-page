@@ -4,7 +4,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WONWOORI | 이원우</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>WONWOORI 이원우</title>
   </head>
-  <body></body>
+  <body>
+    <div class="home-bar">
+      <div class="home-bar-btn">
+        <a href="index.html" class="home-bar-btn-link">
+          <i class="fas fa-barcode"></i>
+          <div class="home-bar-btn-text">WONWOORI 이원우</div>
+        </a>
+      </div>
+    </div>
+    <!--
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">WONWOORI 이원우</h1>
+      </div>
+    </header>
+-->
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">About</h1>
+      </div>
+
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-align-justify"></i>
+        </span>
+        <span class="header__icon">
+          <i class="far fa-envelope"></i>
+        </span>
+
+        <span class="header__icon">
+          <i class="fab fa-instagram"></i>
+        </span>
+      </div>
+    </header>
+    <main class="index">
+      <header class="index__header">
+        <!--friends는 index, friend는 category-->
+        <div class="index__category category">
+          <div class="category__column">
+            <a href="cv.html">
+              <img src="images/avatar.jpg" class="g-avatar index__photo" />
+              <div class="category__content">
+                <span class="category__name">
+                  WONWOORI 이원우
+                </span>
+                <span class="category__status">
+                  Sound X Technology
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </header>
+      <ul class="index__works">
+        <h5 class="index__title">Category</h5>
+        <li class="index__category category">
+          <div class="category__column">
+            <a href="works.html">
+              <img src="images/avatar.jpg" class="index__photo" />
+              <div class="category__content">
+                <span class="category__name">
+                  [Works]
+                </span>
+              </div>
+            </a>
+          </div>
+        </li>
+        <li class="index__category category">
+          <div class="category__column">
+            <a href="news.html">
+              <img src="images/avatar.jpg" class="index__photo" />
+              <div class="category__content">
+                <span class="category__name">
+                  [News]
+                </span>
+              </div>
+            </a>
+          </div>
+        </li>
+        <li class="index__category category">
+          <div class="category__column">
+            <a href="blog.html">
+              <img src="images/avatar.jpg" class="index__photo" />
+              <div class="category__content">
+                <span class="category__name">
+                  [Blog]
+                </span>
+              </div>
+            </a>
+          </div>
+        </li>
+        <li class="index__category category">
+          <div class="category__column">
+            <a href="contact.html">
+              <img src="images/avatar.jpg" class="index__photo" />
+              <div class="category__content">
+                <span class="category__name">
+                  [Contact]
+                </span>
+              </div>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </main>
+  </body>
 </html>
