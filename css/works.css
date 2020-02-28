@@ -1,0 +1,27 @@
+.works .index__photo {
+  width: 50px;
+  border-radius: 35%;
+  margin-bottom: 10px;
+}
+
+.works .works__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.works .works__work {
+  display: flex;
+}
+
+.category__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category__status {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
