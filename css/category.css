@@ -41,7 +41,7 @@
 .friend__content .friend__name {
   display: block;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: -3px;
 }
 
 .friend__content .friend__status,
@@ -71,4 +71,8 @@
   font-size: 13px;
   opacity: 0.5;
   margin-bottom: 10px;
+}
+
+.chats__list .chats__chat {
+  display: flex;
 }
