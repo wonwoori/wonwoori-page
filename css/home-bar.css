@@ -1,0 +1,19 @@
+.home-bar {
+  justify-content: space-between;
+  margin-top: -72px;
+  margin-bottom: 0px;
+  opacity: 1;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.home-bar i {
+  font-size: 15px;
+  align-items: center;
+}
