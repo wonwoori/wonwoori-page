@@ -1,0 +1,69 @@
+.index {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.index .index__photo {
+  width: 50px;
+  border-radius: 35%;
+  margin-bottom: 10px;
+}
+
+.index__photo {
+  display: flex;
+}
+.index__header .index__category {
+  display: flex;
+}
+
+.category__content {
+  display: flex;
+}
+
+.category__name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.index__category .category__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category__status {
+  display: flex;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  opacity: 0.7;
+}
+
+.category__column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.index__category .category__name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.index__category .category__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 카테고리 파트 */
+
+.index__works {
+  border-top: 1px solid #f7f7f7;
+}
+.index__works .index__category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
