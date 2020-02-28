@@ -1,0 +1,74 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends__friend {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.friend .friend__avatar {
+  width: 50px;
+  border-radius: 35%;
+}
+
+.friend__avatar.g-avatar {
+  /* 둘다 가진 애들한테 적용된다는 뜻. 붙여 써야함. 
+      따로 쓰면 프랜드 아바타 안에 있는 지 - 아바타를 의미함 */
+  width: 70px;
+}
+
+.friend__avatar.m-avatar {
+  /* 둘다 가진 애들한테 적용된다는 뜻. 붙여 써야함. 
+        따로 쓰면 프랜드 아바타 안에 있는 지 - 아바타를 의미함 */
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend__column .friend__avatar {
+  display: flex;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  opacity: 0.5;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
+
+.friends .friends__plus {
+  padding: 20px 0px;
+  border-top: 1px solid #f7f7f7;
+
+  margin: 20px 0px;
+}
+
+.friends__plus .friends__title,
+.friends__list .friends__title {
+  font-size: 13px;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
