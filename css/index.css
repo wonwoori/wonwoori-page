@@ -9,7 +9,7 @@
   margin-bottom: 10px;
 }
 
-.index__photo {
+.index .index__photo {
   display: flex;
 }
 .index__header .index__category {
